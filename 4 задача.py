@@ -18,6 +18,7 @@ file.close()
 file = open('text.txt', 'r',  encoding='utf-8')
 x = 0
 y = 0
+mv = sum_mv/amount
 for line in file:
     c = line.strip()
     wl_str, v_str = c.split('\t')
